@@ -46,4 +46,3 @@ function QuestionItem({ question, setQuestions }) {
 }
 
 export default QuestionItem;
-

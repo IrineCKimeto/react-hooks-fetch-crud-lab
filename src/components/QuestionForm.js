@@ -1,6 +1,7 @@
+
 import React, { useState } from "react";
 
-function QuestionForm({ setQuestions }) {
+function QuestionForm({ setQuestions = () => {} }) { 
   const [formData, setFormData] = useState({
     prompt: "",
     answers: ["", "", "", ""],
@@ -85,4 +86,3 @@ function QuestionForm({ setQuestions }) {
 }
 
 export default QuestionForm;
-
